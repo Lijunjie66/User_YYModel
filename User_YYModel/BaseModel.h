@@ -45,6 +45,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSData *)toJsonData;
 
+
+// （自己添加的方法，可不写）去除字符串前后的空格，判断输入的内容不是空格：
+- (NSString *)cleanString:(NSString *)str; // 清除\n和\r 的字符串
+
 @end
 
 NS_ASSUME_NONNULL_END
